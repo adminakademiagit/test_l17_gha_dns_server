@@ -15,3 +15,4 @@ nowy     IN  A       10.0.10.31
 testowy  IN  A       10.0.10.123
 gha      IN  A       10.0.10.31
 test     IN  A       10.0.10.99
+test2    IN  A       10.0.10.98
