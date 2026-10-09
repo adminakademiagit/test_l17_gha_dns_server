@@ -45,8 +45,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-
-  deploy-and-test:
+deploy-and-test:
     # Poniższe spowoduje, że zadanie uruchomi się tylko, gdy to wcześniejsze zakończy się sukcesem
     needs: [utworzenie-oraz-wyslanie_obrazu]
     runs-on: dns_server
