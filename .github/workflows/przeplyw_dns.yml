@@ -2,6 +2,7 @@ name: Utworzenie i wysłanie obrazu Docker (moj-server-dns)
 
 on:
   push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
